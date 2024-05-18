@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceportLaunchOptimizer", "SpaceportLaunchOptimizer.csproj", "{07CBB4D8-8BE5-4793-9429-F1AEED22058C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SpaceportLaunchOptimizer.Tests", "..\SpaceportLaunchOptimizer.Tests\SpaceportLaunchOptimizer.Tests.csproj", "{F26624F2-6FA1-4590-83B2-9553C261BB85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpaceportLaunchOptimizerProject", "SpaceportLaunchOptimizerProject", "{ED1DB88A-EF29-4009-8008-DB7104E02F3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07CBB4D8-8BE5-4793-9429-F1AEED22058C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07CBB4D8-8BE5-4793-9429-F1AEED22058C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07CBB4D8-8BE5-4793-9429-F1AEED22058C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07CBB4D8-8BE5-4793-9429-F1AEED22058C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F26624F2-6FA1-4590-83B2-9553C261BB85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26624F2-6FA1-4590-83B2-9553C261BB85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26624F2-6FA1-4590-83B2-9553C261BB85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26624F2-6FA1-4590-83B2-9553C261BB85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07CBB4D8-8BE5-4793-9429-F1AEED22058C} = {ED1DB88A-EF29-4009-8008-DB7104E02F3F}
+		{F26624F2-6FA1-4590-83B2-9553C261BB85} = {ED1DB88A-EF29-4009-8008-DB7104E02F3F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {801BD680-7F99-471F-93AB-011C968BE834}
+	EndGlobalSection
+EndGlobal
